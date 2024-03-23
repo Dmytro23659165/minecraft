@@ -1,0 +1,458 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.head-content__box {
+  padding: 18.5px 24.5px;
+  border-color: black;
+}
+
+.head__content {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 165px;
+}
+
+.head-content__but-box {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 40px;
+}
+
+.head-content__but {
+  color: rgb(0, 0, 0);
+  font-family: Josefin Sans;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 5%;
+  text-align: left;
+  text-decoration: none;
+}
+
+.head__content-head {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 3px;
+}
+
+.head-content__rut-box {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 22px;
+}
+
+.head-content__ruter {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 10px;
+}
+
+.head-content__rut-0 {
+  color: rgb(255, 0, 0);
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  letter-spacing: 5%;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.head-content__rut-dollar {
+  color: rgb(0, 0, 0);
+  font-family: Josefin Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: end;
+  margin: 4px;
+}
+
+.head-content2__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-content__nazva {
+  color: grey;
+  font-family: Josefin Sans;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 5%;
+  text-align: left;
+  text-transform: lowercase;
+}
+
+.head-content__link {
+  color: rgb(41, 42, 51);
+  width: 511px;
+  font-family: Cormorant;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 7%;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.head-content__text {
+  color: rgb(0, 0, 0);
+  width: 483px;
+  font-family: Josefin Sans;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 160%;
+  letter-spacing: 10%;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.head-button__box {
+  padding-top: 35px;
+}
+
+.head-content__but2 {
+  padding: 14px 28px;
+  background-color: rgb(41, 42, 51);
+  color: white;
+  border: rgb(41, 42, 51);
+}
+
+.shop-nazva__box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shop__nazva {
+  color: rgb(0, 0, 0);
+  font-family: Cormorant;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 10%;
+  text-align: left;
+}
+
+.Shop-nazva__line {
+  width: 100px;
+}
+
+.shop-overflow-img__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-top: 61px;
+}
+
+.shop-overflow__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shop-overflow__img-box {
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.shop-overflow__text {
+  color: rgb(0, 0, 0);
+  font-family: Cormorant;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 10%;
+  text-align: center;
+}
+
+.shop-overflow__box:hover {
+  box-shadow: 0px 7px 15px rgb(233, 233, 233);
+}
+
+.shop-overflow-under__img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 90px;
+}
+
+.shop-overflow-under__img-a {
+  display: flex;
+  gap: 40px;
+}
+
+.An-button__content-link {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  align-items: end;
+  padding-right: 40px;
+  padding-bottom: 54px;
+  gap: 408px;
+  background-image: url("./src/Videoimg.png");
+  margin: -8px;
+}
+
+.An-button__nazva {
+  color: rgb(255, 255, 255);
+  width: 232px;
+  font-family: Cormorant;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 10%;
+  text-align: right;
+}
+
+.An-button__link {
+  padding: 14px 28px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: rgb(255, 255, 255);
+  color: rgb(41, 42, 51);
+  font-family: Josefin Sans;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 15%;
+}
+
+.Deal-content__nazva-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 90px;
+}
+
+.Deal-content__nazva {
+  color: rgb(0, 0, 0);
+  font-family: Cormorant;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 10%;
+  text-align: center;
+}
+
+.Deal-content__overflov-boxer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.Deal-content__overflov-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Deal-overflov__first-img {
+  width: 300px;
+  height: 400px;
+}
+
+.Deal-overflov__text-box {
+  overflow: hidden;
+  border: 1px solid grey;
+  padding: 25px;
+}
+
+.Deal-overflov__text-nazva {
+  color: rgb(0, 0, 0);
+  font-family: Cormorant;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 10%;
+  text-align: center;
+}
+
+.Deal-overflov__stars-boxer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Deal-overflov__price {
+  color: rgb(0, 0, 0);
+  font-family: Josefin Sans;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 5%;
+  text-align: left;
+}
+
+.Deal-overflov__text-paragraf {
+  color: rgb(0, 0, 0);
+  width: 246px;
+  font-family: Josefin Sans;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 160%;
+  letter-spacing: 5%;
+  padding-left: 10px;
+}
+
+.Deal-overflov__button-box {
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  gap: 67.2px;
+}
+
+.Deal-overflov__button {
+  color: rgb(255, 255, 255);
+  font-family: Josefin Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+  padding: 14px 28px;
+  background-color: rgb(0, 0, 0);
+  border: rgb(0, 0, 0);
+}
+
+.Deal-overflov__button-img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.Deal-overflow-under__img-a-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 90px;
+}
+
+.Deal-overflow-under__img-a {
+  display: flex;
+  gap: 40px;
+}
+
+.New-content__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.New-content-text__box {
+  background-image: url("./src/banner1.png");
+  background-repeat: no-repeat;
+  width: 560px;
+}
+
+.New-content-text__boxer {
+  padding-left: 40px;
+  padding-top: 40px;
+}
+
+.New-content__text {
+  color: rgb(0, 0, 0);
+  font-family: Cormorant;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 10%;
+  text-align: left;
+}
+
+.New-content__text-link {
+  color: rgb(0, 0, 0);
+  width: 200px;
+  font-family: Josefin Sans;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 160%;
+  text-align: left;
+}
+
+.New-content__button-box {
+  padding-top: 282px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+
+.New-content__button {
+  padding: 14px 28px;
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  border: 1px solid rgb(41, 42, 51);
+  font-family: Josefin Sans;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 15%;
+  text-align: left;
+}
+
+.New-content-text__box-link {
+  background-image: url("./src/banner2.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 560px;
+}
+
+.New-content-text__boxering {
+  display: flex;
+  justify-content: end;
+  padding-top: 40px;
+  padding-right: 40px;
+}
+
+.New-content__text-rower {
+  color: rgb(255, 255, 255);
+  width: 180px;
+  font-family: Cormorant;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 10%;
+  text-align: right;
+}
+
+.New-content__button-boxer {
+  display: flex;
+  justify-content: end;
+  padding-top: 282px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+
+.New-content__button-link {
+  padding: 14px 28px;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  border: 1px solid rgb(255, 255, 255);
+  /* Button text */
+  color: rgb(255, 255, 255);
+  font-family: Josefin Sans;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 15%;
+  text-align: left;
+}/*# sourceMappingURL=style.css.map */
