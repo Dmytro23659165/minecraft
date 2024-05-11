@@ -51,7 +51,7 @@
                         Bruden's Backpack embodies luxury fashion 
                         while keeping comfort and versatility</article>
                         <div class="head-button__box">
-                            <a href="#"><button class="head-content__but2">SHOP NOW</button></a>
+                            <button class="head-content__but2">SHOP NOW</button>
                         </div>
                 </div>
                 <div class="head-content__img-box">
@@ -68,11 +68,16 @@
                     <img src="./src/Line7.png" alt="$" class="shop-nazva__line">
                 </div>
                 <div id="carouselExampleDark" class="carousel carousel-dark slide">
-                    <div class="d-flex justify-content-center carousel-inner">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="d-flex carousel-inner">
                       <div class="carousel-item active" data-bs-interval="10000">
-                        <div class="shop-overflow__img-box-link">
+                        <div class="d-flex justify-content-center shop-overflow__img-box-link">
                             <a href="#" class="shop-overflow__img-box">
-                                <img src="./src/рюказк.png" alt="$" class="d-block w-5">
+                                <img src="./src/рюказк.png" alt="$" class="shop-overflow__img">
                                 <p class="shop-overflow__text">bags</p>
                             </a>
                         </div>
@@ -81,9 +86,9 @@
                         </div>
                       </div>
                       <div class="carousel-item" data-bs-interval="2000">
-                        <div class="shop-overflow__img-box-link">
+                        <div class="d-flex justify-content-center shop-overflow__img-box-link">
                             <a href="#" class="shop-overflow__img-box">
-                                <img src="./src/окуляри.png" alt="$" class="d-block w-5">
+                                <img src="./src/окуляри.png" alt="$" class="shop-overflow__img">
                                 <p class="shop-overflow__text">Sunglasses</p>
                             </a>
                         </div>
@@ -92,9 +97,9 @@
                         </div>
                       </div>
                       <div class="carousel-item">
-                        <div class="shop-overflow__img-box-link">
+                        <div class="d-flex justify-content-center shop-overflow__img-box-link">
                             <a href="#" class="shop-overflow__img-box">
-                                <img src="./src/remencategori.png" alt="$" class="d-block w-5">
+                                <img src="./src/remencategori.png" alt="$" class="shop-overflow__img">
                                 <p class="shop-overflow__text">Belts</p>
                             </a>
                         </div>
@@ -112,37 +117,7 @@
                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
                       <span class="visually-hidden">Next</span>
                     </button>
-                  </div>
-                <!-- <div class="shop-overflow-img__box">
-                    <div class="shop-overflow__box">
-                        <a href="#" class="shop-overflow__img-box">
-                            <img src="./src/рюказк.png" alt="$" class="shop-overflow__img">
-                            <p class="shop-overflow__text">bags</p>
-                        </a>
-                    </div>
-
-                    <div class="shop-overflow__box">
-                        <a href="#" class="shop-overflow__img-box">
-                            <img src="./src/окуляри.png" alt="$" class="shop-overflow__img">
-                            <p class="shop-overflow__text">bags</p>
-                        </a>
-                    </div>
-
-                    <div class="shop-overflow__box">
-                        <a href="#" class="shop-overflow__img-box">
-                            <img src="./src/remencategori.png" alt="$" class="shop-overflow__img">
-                            <p class="shop-overflow__text">bags</p>
-                        </a>
-                    </div>
                 </div>
-                <div class="shop-overflow-under__img-box">
-                    <a href="#" class="shop-overflow-under__img-a">
-                        <img src="./src/ліва-стріка.png" alt="$" class="shop-overflow-under__img">
-                    </a>
-                    <a href="#" class="shop-overflow-under__img-a">
-                        <img src="./src/права-стріка.png" alt="$" class="shop-overflow-under__img">
-                    </a>
-                </div> -->
             </div>
         </div>
     </section>
@@ -151,7 +126,7 @@
             <div class="An-button__content-box">
                 <div class="An-button__content-link">
                     <p class="An-button__nazva">An addition to all your fits</p>
-                    <a href="#"><button class="An-button__link">SHOP NOW</button></a>
+                    <button class="An-button__link">SHOP NOW</button>
                 </div>
             </div>
         </div>
@@ -163,9 +138,13 @@
                     <p class="Deal-content__nazva">Deal of the week</p>
                     <img src="./src/Line7.png" alt="$" class="Deal-content__nazva-img">
                 </div>
-                <div id="carouselExample" class="carousel slide">
+                <div id="carouselExample" class="carousel carousel-dark slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    </div>
                     <div class="carousel-inner">
-                      <div class="carousel-item active">
+                      <div class="carousel-item active p-5">
                         <!-- <img src="" class="d-block w-100" alt="..."> -->
                         <div class="Deal-content__overflov-box">
                             <img src="./src/Dealoftheweek1.png" alt="$" class="Deal-overflov__first-img">
@@ -185,7 +164,7 @@
                                 <p class="Deal-overflov__text-paragraf">Bruden's Backpack will give all your essentials 
                                     a home while still feeling comfortable and having a... </p>
                                 <div class="Deal-overflov__button-box">
-                                    <a href="#"><button class="Deal-overflov__button">Add to cart</button></a>
+                                    <button class="Deal-overflov__button">Add to cart</button>
                                     <div class="Deal-overflov__button-img-box">
                                         <img src="./src/heart.png" alt="$" class="Deal-overflov__button-img">
                                         <img src="./src/Vector.png" alt="$" class="Deal-overflov__button-img">
@@ -193,8 +172,8 @@
                                 </div>
                             </div>
                         </div>
-                      </div>
-                      <div class="carousel-item">
+                    </div>
+                    <div class="carousel-item p-5">
                         <!-- <img src="" class="d-block w-100" alt="..."> -->
                         <div class="Deal-content__overflov-box">
                             <img src="./src/Dealoftheweek2.png" alt="$" class="Deal-overflov__first-img">
@@ -214,7 +193,7 @@
                                 <p class="Deal-overflov__text-paragraf">Bruden's Backpack will give all your essentials 
                                     a home while still feeling comfortable and having a... </p>
                                 <div class="Deal-overflov__button-box">
-                                    <a href="#"><button class="Deal-overflov__button">Add to cart</button></a>
+                                    <button class="Deal-overflov__button">Add to cart</button>
                                     <div class="Deal-overflov__button-img-box">
                                         <img src="./src/heart.png" alt="$" class="Deal-overflov__button-img">
                                         <img src="./src/Vector.png" alt="$" class="Deal-overflov__button-img">
@@ -231,74 +210,10 @@
                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
                       <span class="visually-hidden">Next</span>
-                    </button>
+                    </button> 
                 </div>
-                <!-- <div class="Deal-content__overflov-boxer">
-                    <div class="Deal-content__overflov-box">
-                        <img src="./src/Dealoftheweek1.png" alt="$" class="Deal-overflov__first-img">
-                        <div class="Deal-overflov__text-box">
-                            <p class="Deal-overflov__text-nazva">Fiery Red Bruden Backpack</p>
-                            <div class="Deal-overflov__stars-boxer">
-                                <div class="Deal-overflov__stars-box">
-                                    <img src="./src/Starratingfull.png" alt="$" class="Deal-overflov__stars">
-                                    <img src="./src/Starratingfull.png" alt="$" class="Deal-overflov__stars">
-                                    <img src="./src/Starratingfull.png" alt="$" class="Deal-overflov__stars">
-                                    <img src="./src/Starratingfull.png" alt="$" class="Deal-overflov__stars">
-                                    <img src="./src/Starratingfull.png" alt="$" class="Deal-overflov__stars">
-                                </div>
-                                <p class="Deal-overflov__price">C$ 99.99</p>
-                            </div>
-                            <img src="./src/Line4.png" alt="$" class="Deal-overflov__line">
-                            <p class="Deal-overflov__text-paragraf">Bruden's Backpack will give all your essentials 
-                                a home while still feeling comfortable and having a... </p>
-                            <div class="Deal-overflov__button-box">
-                                <a href="#"><button class="Deal-overflov__button">Add to cart</button></a>
-                                <div class="Deal-overflov__button-img-box">
-                                    <img src="./src/heart.png" alt="$" class="Deal-overflov__button-img">
-                                    <img src="./src/Vector.png" alt="$" class="Deal-overflov__button-img">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="Deal-content__overflov-box">
-                        <img src="./src/Dealoftheweek2.png" alt="$" class="Deal-overflov__first-img">
-                        <div class="Deal-overflov__text-box">
-                            <p class="Deal-overflov__text-nazva">Bruden's Backpack</p>
-                            <div class="Deal-overflov__stars-boxer">
-                                <div class="Deal-overflov__stars-box">
-                                    <img src="./src/Starratingfull.png" alt="$" class="Deal-overflov__stars">
-                                    <img src="./src/Starratingfull.png" alt="$" class="Deal-overflov__stars">
-                                    <img src="./src/Starratingfull.png" alt="$" class="Deal-overflov__stars">
-                                    <img src="./src/Starratingfull.png" alt="$" class="Deal-overflov__stars">
-                                    <img src="./src/Starratingfull.png" alt="$" class="Deal-overflov__stars">
-                                </div>
-                                <p class="Deal-overflov__price">C$ 66.49</p>
-                            </div>
-                            <img src="./src/Line4.png" alt="$" class="Deal-overflov__line">
-                            <p class="Deal-overflov__text-paragraf">Bruden's Backpack will give all your essentials 
-                                a home while still feeling comfortable and having a... </p>
-                            <div class="Deal-overflov__button-box">
-                                <a href="#"><button class="Deal-overflov__button">Add to cart</button></a>
-                                <div class="Deal-overflov__button-img-box">
-                                    <img src="./src/heart.png" alt="$" class="Deal-overflov__button-img">
-                                    <img src="./src/Vector.png" alt="$" class="Deal-overflov__button-img">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-            </div>
-            <!-- <div class="Deal-overflow-under__img-a-box">
-                <a href="#" class="Deal-overflow-under__img-a">
-                    <img src="./src/ліва-стріка.png" alt="$" class="Deal-overflow-under__img">
-                </a>
-                <a href="#" class="Deal-overflow-under__img-a">
-                    <img src="./src/права-стріка.png" alt="$" class="Deal-overflow-under__img">
-                </a>
-            </div> -->
-        </div>
+            </div> 
+        </div>  
     </section>
     <section class="New-arrival-sect">
         <div class="conteiner">
@@ -309,7 +224,7 @@
                         <p class="New-content__text-link">Exclusive Denisha Bruce Red Backpack Launch</p>
                     </div>
                     <div class="New-content__button-box">
-                        <a href="#"><button class="New-content__button">SHOP NOW</button></a>
+                        <button class="New-content__button">SHOP NOW</button>
                     </div>
                 </div>
 
@@ -318,7 +233,7 @@
                         <p class="New-content__text-rower">An addition to all your fits</p>
                     </div>
                     <div class="New-content__button-boxer">
-                        <a href="#"><button class="New-content__button-link">SHOP NOW</button></a>
+                        <button class="New-content__button-link">SHOP NOW</button>
                     </div>
                 </div>
             </div>
@@ -333,77 +248,86 @@
                         <img src="./src/Line7.png" alt="$" class="Latest-content__img">
                     </div>
                 </div>
-                <div class="Latest-owerflov__content-box">
-                    <div class="Latest-owerflov__cont-box">
-                        <div class="Latest-owerflov__box">
-                            <div class="Latest-img__box">
-                                <p class="Latest-img__text">April 3 -2 min read</p>
-                                <img src="./src/Latestnews1.png" alt="$" class="Latest-owerflov__img">
-                            </div>
-                            <div class="Latest-owerflov__text-box">
-                                <p class="Latest-owerflov__text-nazva">Bruden Mode Is Taking Care of Women</p>
-                                <p class="Latest-owerflov__text-paragraf">
-                                    Bruden Mode in Montreal has taken a lot of time and put 
-                                    a lot of effort into helping women not only look great 
-                                    but to be more healthy.
-                                </p>
-                                <div class="Latest-owerflov__a-box">
-                                    <a href="#" class="Latest-owerflov__a">Read more</a>
+                    <div id="carouselExampleIndicators" class="carousel carousel-dark slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="Latest-owerflov__cont-box">
+                                <div class="Latest-owerflov__box">
+                                    <div class="Latest-img__box">
+                                        <p class="Latest-img__text">April 3 -2 min read</p>
+                                        <img src="./src/Latestnews1.png" alt="$" class="Latest-owerflov__img">
+                                    </div>
+                                    <div class="Latest-owerflov__text-box">
+                                        <p class="Latest-owerflov__text-nazva">Bruden Mode Is Taking Care of Women</p>
+                                        <p class="Latest-owerflov__text-paragraf">
+                                            Bruden Mode in Montreal has taken a lot of time and put 
+                                            a lot of effort into helping women not only look great 
+                                            but to be more healthy.
+                                        </p>
+                                        <div class="Latest-owerflov__a-box">
+                                            <a href="#" class="Latest-owerflov__a">Read more</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-
-
-                    <div class="Latest-owerflov__cont-box">
-                        <div class="Latest-owerflov__box">
-                            <div class="Latest-img__box">
-                                <p class="Latest-img__text">Mar 3 - 2 min read</p>
-                                <img src="./src/Latestnews2.png" alt="$" class="Latest-owerflov__img">
-                            </div>
-                            <div class="Latest-owerflov__text-box">
-                                <p class="Latest-owerflov__text-nazva">Bruden Mode Accessories</p>
-                                <p class="Latest-owerflov__text-paragrafer">
-                                    Finding the perfect little thing that compliments your 
-                                    wardrobe can give you the confidence and 
-                                    the feeling you love to be your best.
-                                </p>
-                                <div class="Latest-owerflov__a-box">
-                                    <a href="#" class="Latest-owerflov__a">Read more</a>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="Latest-owerflov__cont-box">
+                                <div class="Latest-owerflov__box">
+                                    <div class="Latest-img__box">
+                                        <p class="Latest-img__text">Mar 3 - 2 min read</p>
+                                        <img src="./src/Latestnews2.png" alt="$" class="Latest-owerflov__img">
+                                    </div>
+                                    <div class="Latest-owerflov__text-box">
+                                        <p class="Latest-owerflov__text-nazva">Bruden Mode Accessories</p>
+                                        <p class="Latest-owerflov__text-paragrafer">
+                                            Finding the perfect little thing that compliments your 
+                                            wardrobe can give you the confidence and 
+                                            the feeling you love to be your best.
+                                        </p>
+                                        <div class="Latest-owerflov__a-box">
+                                            <a href="#" class="Latest-owerflov__a">Read more</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-
-
-                    <div class="Latest-owerflov__cont-box">
-                        <div class="Latest-owerflov__box">
-                            <div class="Latest-img__box">
-                                <p class="Latest-img__text">Jan 4 - 3 min read</p>
-                                <img src="./src/Latestnews3.png" alt="$" class="Latest-owerflov__img">
-                            </div>
-                            <div class="Latest-owerflov__text-box">
-                                <p class="Latest-owerflov__text-nazva">Different Types of Backpacks</p>
-                                <p class="Latest-owerflov__text-paragrafier">
-                                    Different backpacks do different things and serve various purposes.
-                                </p>
-                                <div class="Latest-owerflov__a-box">
-                                    <a href="#" class="Latest-owerflov__a">Read more</a>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="Latest-owerflov__cont-box">
+                                <div class="Latest-owerflov__box">
+                                    <div class="Latest-img__box">
+                                        <p class="Latest-img__text">Jan 4 - 3 min read</p>
+                                        <img src="./src/Latestnews3.png" alt="$" class="Latest-owerflov__img">
+                                    </div>
+                                    <div class="Latest-owerflov__text-box">
+                                        <p class="Latest-owerflov__text-nazva">Different Types of Backpacks</p>
+                                        <p class="Latest-owerflov__text-paragrafier">
+                                            Different backpacks do different things and serve various purposes.
+                                        </p>
+                                        <div class="Latest-owerflov__a-box">
+                                            <a href="#" class="Latest-owerflov__a">Read more</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+                          </div>
                         </div>
-                    </div>
-                </div>
-                <div class="Latest-end__strela-box">
-                    <a href="#" class="Latest-end__strela-a-box">
-                        <img src="./src/ліва-стріка.png" alt="$" class="Latest-end__strela">
-                    </a>
-                    <a href="#" class="Latest-end__strela-a-box">
-                        <img src="./src/права-стріка.png" alt="$" class="Latest-end__strela">
-                    </a>
-                </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div> 
             </div>
-        </div>
     </section>
     <section class="Fits-hiden-sect">
         <div class="conteiner">
@@ -414,7 +338,7 @@
                         <p class="Fits-content__paragraf">Precise fit on sliding buckle with no holes</p>
                     </div>
                     <div class="Fits-content__button-box">
-                        <a href="#"><button class="Fits-content__button">SHOP NOW</button></a>
+                        <button class="Fits-content__button">SHOP NOW</button>
                     </div>
                 </div>
                 <div class="Fits-content__img-box">
